@@ -8,8 +8,8 @@ plotly
 wordcloud
 scikit-learn
 xgboost
-torch
 requests
 joblib
 google-cloud-aiplatform
+
 google-cloud-logging

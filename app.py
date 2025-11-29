@@ -6,8 +6,7 @@ import joblib
 import requests
 
 import io
-import torch
-import torch.nn as nn
+
 
 import numpy as np
 import pandas as pd
@@ -16,7 +15,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 from wordcloud import WordCloud
 from collections import Counter
-import torch
+
 import xgboost as xgb
 
 import ast
@@ -78,15 +77,6 @@ def load_model_from_url(url):
         print(f"Failed to load model from {url}. Status code: {response.status_code}")
         return None
 
-# Function to download and load a PyTorch model from a URL
-def load_pytorch_model_from_url(url):
-    response = requests.get(url)
-    if response.status_code == 200:
-        # Use io.BytesIO() to convert the response content into a file-like object
-        return torch.load(io.BytesIO(response.content))
-    else:
-        print(f"Failed to download PyTorch model from {url}. Status code: {response.status_code}")
-        return None
 
 # Define the URLs for your models and data
 xgb_Model_url = "https://storage.googleapis.com/anomalygithub/xgb_model.pkl"
@@ -97,7 +87,7 @@ Arima_url = "https://storage.googleapis.com/anomalygithub/arima_model.pkl"
 tfidf_url = "https://storage.googleapis.com/anomalygithub/tfidf_vectorizer.pkl"
 label_encoder_url = "https://storage.googleapis.com/anomalygithub/label_encoder.pkl"
 DF_url = "https://storage.googleapis.com/anomalygithub/Anomaly_Detection.csv"
-VAE_url = "https://storage.googleapis.com/anomalygithub/vae_model.pth"
+
 
 # Load models from URLs using the helper function
 xgb_model = load_model_from_url(xgb_Model_url)
@@ -105,8 +95,6 @@ one_class_svm_model = load_model_from_url(one_svm_url)
 arima_model = load_model_from_url(Arima_url)
 
 
-# Load the PyTorch model (VAE model) using the special function for PyTorch
-vae_model = load_pytorch_model_from_url(VAE_url)
 
 # Load Logistic Regression, TFIDF, and Label Encoder with joblib (for .pkl files)
 tfidf = joblib.load(io.BytesIO(requests.get(tfidf_url).content))
@@ -778,5 +766,6 @@ elif selected == "About":
     """)
     
     st.success("Thank you for exploring this project!")
+
 
     

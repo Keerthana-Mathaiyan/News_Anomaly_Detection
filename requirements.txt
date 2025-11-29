@@ -11,5 +11,5 @@ xgboost
 requests
 joblib
 google-cloud-aiplatform
-
 google-cloud-logging
+

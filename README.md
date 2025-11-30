@@ -1,4 +1,4 @@
-🛰️ Hyperlocal News Anomaly Detection and Source Attribution
+##🛰️ Hyperlocal News Anomaly Detection and Source Attribution
 
 🎓 Capstone Project — GUVI Data Science Program
 
@@ -44,7 +44,7 @@
               └───────────────────────────────────────┘
 
 
-check the link: http://34.180.52.225:8501/
+
 
 
 🎯 Objective
@@ -53,19 +53,19 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 
 📂 Key Files 
 
-CSVFile - Dataset containing hyperlocal news articles 
+📄CSVFile - Dataset containing hyperlocal news articles 
 
-PDF - colabnotebook PDF, py file(All have same coding) 
+🗂️PDF - 📓colabnotebook PDF, py file(All have same coding) 
 
-Models- Cleaned data with derived sentiment, topics, anomalies and trained models 
+🧠Models- Cleaned data with derived sentiment, topics, anomalies and trained models 
 
-app.py - Streamlit dashboard code 
+🐍app.py - Streamlit dashboard code 
 
-Readme- Documentation file about the python notebook & Datasets 
+📄Readme- Documentation file about the python notebook & Datasets 
 
-requirement - Dependencies list
+📄requirement - Dependencies list
 
-Docker - It is a recipe that tells Docker how to build an image for your app
+🐳Docker - It is a recipe that tells Docker how to build an image for your app
 
 
 
@@ -76,6 +76,9 @@ Disinformation Detection: Identify misattributed or fake news.
 Hyperlocal Trend Monitoring: Detect sentiment and topic shifts in regions.
 
 Automated Content Verification: Flag suspicious content automatically.
+
+
+
 
 📚 Project Approach
 
@@ -90,6 +93,8 @@ Automated Content Verification: Flag suspicious content automatically.
 5.Anomaly Detection: Apply Isolation Forest / XGBoost / ARIMA with anomaly detection. 
 
 6.Report Results: Display anomaly scores and flagged articles interactively.
+
+
 
 
 🧰 Technologies Used
@@ -115,8 +120,11 @@ Automated Content Verification: Flag suspicious content automatically.
 
 
 
-✅ Conclusion 
+
+✅ Result
   This project provides a robust system for detecting anomalous patterns in hyperlocal news articles. Use the Home page to explore news anomalies, check sentiment trends, and monitor potential misattributions. The app leverages advanced NLP models and cloud hosting to provide real-time insights efficiently.
+
+check the link: [Click Here](http://34.180.52.225:8501/)
 
 
 
@@ -129,7 +137,8 @@ GitHub: [Checkout the link here](https://github.com/Keerthana-Mathaiyan?tab=repo
 LinkedIn: [Keerthana Mathaiyan](https://www.linkedin.com/in/keerthana-mathaiyan/)
 
 
+
 🧾 License This project is developed for educational and research purposes only
 
 
-Reference: Guvi Live-Class colabnotebook,scikit-learn.org , docs.streamlit.ioand documents from Python.org  
+📌Reference: Guvi Live-Class colabnotebook,scikit-learn.org , docs.streamlit.ioand documents from Python.org  

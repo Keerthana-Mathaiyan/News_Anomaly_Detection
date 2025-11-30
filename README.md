@@ -51,6 +51,10 @@
 
 Detects unusual or misleading patterns in local news articles using NLP models (BERT/RoBERTa) by analyzing language, sentiment, and location for source verification.
 
+
+
+
+
 📂 Key Files 
 
 📄CSVFile - Dataset containing hyperlocal news articles 
@@ -69,6 +73,8 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 
 
 
+
+
 🧩 Business Use Cases
 
 💡Disinformation Detection: Identify misattributed or fake news. 
@@ -76,6 +82,8 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 💡Hyperlocal Trend Monitoring: Detect sentiment and topic shifts in regions.
 
 💡Automated Content Verification: Flag suspicious content automatically.
+
+
 
 
 
@@ -93,6 +101,8 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 5.Anomaly Detection: Apply Isolation Forest / XGBoost / ARIMA with anomaly detection. 
 
 6.Report Results: Display anomaly scores and flagged articles interactively.
+
+
 
 
 
@@ -121,10 +131,14 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 
 
 
+
+
 ✅ Result
   This project provides a robust system for detecting anomalous patterns in hyperlocal news articles. Use the Home page to explore news anomalies, check sentiment trends, and monitor potential misattributions. The app leverages advanced NLP models and cloud hosting to provide real-time insights efficiently.
 
 check the link: [Click Here](http://34.180.52.225:8501/)
+
+
 
 
 

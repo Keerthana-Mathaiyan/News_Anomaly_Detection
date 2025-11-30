@@ -22,8 +22,7 @@
       │                    Feature Store                       │
       │  text_embed | sentiment | topics | geolocation | time  │
       └────────────────────────────────────────────────────────┘
-                               │
-                               
+                               │                         
                                ▼
     ┌─────────────────────────────────────────────────────────────────────┐
     │                        Anomaly Detection Core                       │
@@ -31,8 +30,7 @@
     │  ● Predicted vs Extracted Location (Location Model)                 │
     │  ● Temporal Deviations (Prophet / ARIMA)                            │
     └─────────────────────────────────────────────────────────────────────┘ 
-                               │
-                         
+                               │                     
                                ▼
               ┌───────────────────────────────────────┐
               │              Scoring API              │

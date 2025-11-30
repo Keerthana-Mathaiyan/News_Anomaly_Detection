@@ -1,12 +1,13 @@
 🛰️ Hyperlocal News Anomaly Detection and Source Attribution
 
+🎓 Capstone Project — GUVI Data Science Program
 
 📌 End-to-End NLP Pipeline
 (Raw Articles → Cleaning → Embedding → Sentiment + Location Extraction → Visualization → Model Training & Evaluation)
 
                ┌────────────────────────────────────────┐
-               │             Data Ingestion              │
-               │ (News Articles, Metadata, Location)     │
+               │             Data Ingestion             │
+               │ (News Articles, Metadata, Location)    │
                └────────────────────────────────────────┘
                                │
                                ▼
@@ -24,14 +25,12 @@
                                │
                                
                                ▼
-
     ┌─────────────────────────────────────────────────────────────────────┐
     │                        Anomaly Detection Core                       │
     │  ● Linguistic Anomaly (IsolationForest / VAE)                       │
     │  ● Predicted vs Extracted Location (Location Model)                 │
     │  ● Temporal Deviations (Prophet / ARIMA)                            │
-    └─────────────────────────────────────────────────────────────────────┘
-                             
+    └─────────────────────────────────────────────────────────────────────┘ 
                                │
                          
                                ▼
@@ -47,7 +46,7 @@
               └───────────────────────────────────────┘
 
 
-check the link:
+check the link: http://34.180.52.225:8501/
 
 
 🎯 Objective
@@ -56,19 +55,19 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 
 📂 Key Files 
 
-Hyperlocal News Anomaly - Dataset containing hyperlocal news articles 
+CSVFile - Dataset containing hyperlocal news articles 
 
-Python Notebook-Dataset - colabnotebook, py file, .pynb (All have same coding) 
+PDF - colabnotebook PDF, py file(All have same coding) 
 
-trained model- Cleaned data with derived sentiment, topics, anomalies and trained models 
-
-Anomaly detection-final project - explanation about the web page 
+Models- Cleaned data with derived sentiment, topics, anomalies and trained models 
 
 app.py - Streamlit dashboard code 
 
 Readme- Documentation file about the python notebook & Datasets 
 
 requirement - Dependencies list
+
+Docker - It is a recipe that tells Docker how to build an image for your app
 
 
 
@@ -131,3 +130,6 @@ LinkedIn: [Keerthana Mathaiyan](https://www.linkedin.com/in/keerthana-mathaiyan/
 
 
 🧾 License This project is developed for educational and research purposes only
+
+
+Reference: Guvi Live-Class colabnotebook,scikit-learn.org , docs.streamlit.ioand documents from Python.org  

@@ -134,6 +134,7 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 
 
 ✅ Result
+
   This project provides a robust system for detecting anomalous patterns in hyperlocal news articles. Use the Home page to explore news anomalies, check sentiment trends, and monitor potential misattributions. The app leverages advanced NLP models and cloud hosting to provide real-time insights efficiently.
 
 check the link: [Click Here](http://34.180.52.225:8501/)

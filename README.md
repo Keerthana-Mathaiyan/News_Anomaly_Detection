@@ -1,4 +1,4 @@
-##🛰️ Hyperlocal News Anomaly Detection and Source Attribution
+🛰️ Hyperlocal News Anomaly Detection and Source Attribution
 
 🎓 Capstone Project — GUVI Data Science Program
 
@@ -59,7 +59,7 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 
 🧠Models- Cleaned data with derived sentiment, topics, anomalies and trained models 
 
-🐍app.py - Streamlit dashboard code 
+🐍app.py - Streamlit dashboard code 🌐
 
 📄Readme- Documentation file about the python notebook & Datasets 
 
@@ -71,11 +71,11 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 
 🧩 Business Use Cases
 
-Disinformation Detection: Identify misattributed or fake news. 
+💡Disinformation Detection: Identify misattributed or fake news. 
 
-Hyperlocal Trend Monitoring: Detect sentiment and topic shifts in regions.
+💡Hyperlocal Trend Monitoring: Detect sentiment and topic shifts in regions.
 
-Automated Content Verification: Flag suspicious content automatically.
+💡Automated Content Verification: Flag suspicious content automatically.
 
 
 

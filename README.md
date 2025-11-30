@@ -129,7 +129,32 @@ Detects unusual or misleading patterns in local news articles using NLP models (
 ☁️ AWS / GCP Hosting – Deploying and hosting the application.
 
 
+Webhosting: 
 
+Create VM instance →  SSH into your VM → Install a web server Python → Run your app and open the firewall for the port.
+
+Below is the code to run:
+
+
+python3 --version # check version
+
+sudo apt update  #update
+
+sudo apt install python3-pip python3-dev #pip install
+
+sudo apt install python3-venv # environment
+
+python3 -m venv streamlit_env #set environment
+
+source streamlit_env/bin/activate  #activate environment
+
+upload files
+
+pip install -r requirements.txt # list all the required lib
+
+streamlit run app.py  #streamlit code
+
+nohup streamlit run app.py &   #this command is for running a Streamlit app persistently on a server without active ternimal 
 
 
 

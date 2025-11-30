@@ -156,6 +156,7 @@ streamlit run app.py  #streamlit code
 
 nohup streamlit run app.py &   #this command is for running a Streamlit app persistently on a server without active ternimal 
 
+⚠️Makesure you have enough space in the disc eg: 50 GB
 
 
 ✅ Result

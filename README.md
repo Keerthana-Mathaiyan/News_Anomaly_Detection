@@ -72,7 +72,9 @@ Docker - It is a recipe that tells Docker how to build an image for your app
 🧩 Business Use Cases
 
 Disinformation Detection: Identify misattributed or fake news. 
-Hyperlocal Trend Monitoring: Detect sentiment and topic shifts in regions. 
+
+Hyperlocal Trend Monitoring: Detect sentiment and topic shifts in regions.
+
 Automated Content Verification: Flag suspicious content automatically.
 
 📚 Project Approach

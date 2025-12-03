@@ -174,4 +174,4 @@ LinkedIn: [Keerthana Mathaiyan](https://www.linkedin.com/in/keerthana-mathaiyan/
 🧾 License This project is developed for educational and research purposes only
 
 
-📌Reference: Guvi Live-Class colabnotebook,scikit-learn.org , docs.streamlit.ioand documents from Python.org  
+📌Reference: Guvi Live-Class colab notebook,scikit-learn.org , docs.streamlit.io and documents from Python.org  
